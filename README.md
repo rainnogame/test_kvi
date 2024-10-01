@@ -39,4 +39,5 @@ Recorder execution time: `3.49 s.`
 # Results
 
 Filled mask for opencv solution -> `test_data/mask_filled_opencv.png`
+
 Filled mask for BFS solution -> `test_data/mask_filled_bfs.png`
