@@ -2,8 +2,8 @@
 
 - The solution is exact.
 - No image rescaling
-    - This will work with current problem but not robust to different image sizes and mask
-      configurations
+    - Rescaling will work with current problem but not robust to different image sizes and mask
+      configurations so I decided not to use rescaling as a part of optimization
 - No multi-threading used
     - Multi-threading solution can be implemented to speed up the process but not considered in my
       case since in general nothing will change significantly in the solution
