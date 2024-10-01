@@ -97,4 +97,4 @@ while True:
 print(f"Execution time: {time() - start_time:.2f} s.")
 
 # Save the result image
-cv2.imwrite("mask_filled_bfs.png", image_filled_polygons)
+cv2.imwrite("test_data/mask_filled_bfs.png", image_filled_polygons)
